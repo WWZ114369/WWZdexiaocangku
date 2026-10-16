@@ -3,7 +3,6 @@ using namespace std;
 void add(string s,string s1);
 void sub(string s,string s1);
 void mut(string s,string s1);
-void div(string s,string s1);
 int main ()
 {
 	string s,s1;
@@ -151,8 +150,4 @@ void mut(string s,string s1)
 		cout<<sum[o];
 	for(int p=1;p<=d;p++)
 	    cout<<'0';
-}
-void div(string s,string s1)
-{
-	
 }
